@@ -1,165 +1,107 @@
+<!DOCTYPE html>
 <html lang="en">
- <head>
-  <meta charset="utf-8"/>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-  <title>
-   Royal Rangers Abakaliki East District Portal
-  </title>
-  <script src="https://cdn.tailwindcss.com">
-  </script>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
- </head>
- <body class="font-roboto">
-  <!-- Header -->
-  <header class="bg-blue-900 text-white">
-   <div class="container mx-auto flex justify-between items-center py-4 px-6">
-    <div class="flex items-center">
-     <img alt="Royal Rangers Abakaliki East District logo" class="h-12 w-16" height="50" src="rrlogo.png" width="70"/>
-     <h1 class="ml-4 text-2xl font-bold">
-      Royal Rangers Abakaliki East District
-     </h1>
-    </div>
-    <nav class="hidden md:flex space-x-6">
-     <a class="hover:text-gray-300" href="#">
-      Home
-     </a>
-     <div class="relative group">
-      <a class="hover:text-gray-300" href="#">
-       About Us
-      </a>
-      <div class="absolute hidden group-hover:block bg-white text-black mt-2 rounded shadow-lg">
-       <a class="block px-4 py-2 hover:bg-gray-200" href="#">
-        Mission &amp; Vision
-       </a>
-       <a class="block px-4 py-2 hover:bg-gray-200" href="#">
-        History
-       </a>
-       <a class="block px-4 py-2 hover:bg-gray-200" href="#">
-        Leadership
-       </a>
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description" content="Official website for Royal Rangers Abakaliki East District. Empowering young people with faith, knowledge, and leadership through programs and activities.">
+   <title>Royal Rangers Abakaliki East District</title>
+   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body class="bg-gray-100">
+
+   <!-- Header with Navbar -->
+   <header class="bg-blue-900 text-white sticky top-0 z-10 shadow-lg">
+      <div class="container mx-auto flex justify-between items-center py-4 px-6">
+         <div class="flex items-center">
+            <img alt="Royal Rangers Abakaliki East District logo" class="h-12 w-16" height="50" src="rrlogo.png" width="70" />
+            <h1 class="ml-4 text-2xl font-bold">Royal Rangers Abakaliki East District</h1>
+         </div>
+
+         <!-- Navbar for large screens -->
+         <nav class="hidden md:flex space-x-6">
+            <a href="#" class="hover:text-gray-300">Home</a>
+
+            <!-- About Us Dropdown -->
+            <div class="relative group">
+               <a href="#" class="hover:text-gray-300">About Us</a>
+               <div class="absolute hidden group-hover:block bg-white text-black mt-2 rounded shadow-lg">
+                  <a href="#" class="block px-4 py-2 hover:bg-gray-200">Mission &amp; Vision</a>
+                  <a href="#" class="block px-4 py-2 hover:bg-gray-200">History</a>
+                  <a href="#" class="block px-4 py-2 hover:bg-gray-200">Leadership</a>
+               </div>
+            </div>
+
+            <!-- Programs Dropdown -->
+            <div class="relative group">
+               <a href="#" class="hover:text-gray-300">Programs</a>
+               <div class="absolute hidden group-hover:block bg-white text-black mt-2 rounded shadow-lg">
+                  <a href="#" class="block px-4 py-2 hover:bg-gray-200">Training Modules</a>
+                  <a href="#" class="block px-4 py-2 hover:bg-gray-200">Activities</a>
+                  <a href="#" class="block px-4 py-2 hover:bg-gray-200">Resources</a>
+               </div>
+            </div>
+
+            <!-- Units Dropdown -->
+            <div class="relative group">
+               <a href="#" class="hover:text-gray-300">Units</a>
+               <div class="absolute hidden group-hover:block bg-white text-black mt-2 rounded shadow-lg">
+                  <a href="#" class="block px-4 py-2 hover:bg-gray-200">Discovery Rangers</a>
+                  <a href="#" class="block px-4 py-2 hover:bg-gray-200">Adventure Rangers</a>
+                  <a href="#" class="block px-4 py-2 hover:bg-gray-200">Expedition Rangers</a>
+                  <a href="#" class="block px-4 py-2 hover:bg-gray-200">Leaders Unit</a>
+               </div>
+            </div>
+
+            <!-- Events Dropdown -->
+            <div class="relative group">
+               <a href="#" class="hover:text-gray-300">Events</a>
+               <div class="absolute hidden group-hover:block bg-white text-black mt-2 rounded shadow-lg">
+                  <a href="#" class="block px-4 py-2 hover:bg-gray-200">Upcoming Events</a>
+                  <a href="#" class="block px-4 py-2 hover:bg-gray-200">Past Events</a>
+               </div>
+            </div>
+
+            <a href="#" class="hover:text-gray-300">Contact Us</a>
+            <a href="#" class="hover:text-gray-300">Login</a>
+            <a href="#" class="hover:text-gray-300">Register</a>
+         </nav>
+
+         <!-- Mobile Menu Icon -->
+         <div class="md:hidden">
+            <button aria-label="Toggle navigation menu" class="text-white focus:outline-none" id="menu-btn">
+               <i class="fas fa-bars"></i>
+            </button>
+         </div>
       </div>
-     </div>
-     <div class="relative group">
-      <a class="hover:text-gray-300" href="#">
-       Programs
-      </a>
-      <div class="absolute hidden group-hover:block bg-white text-black mt-2 rounded shadow-lg">
-       <a class="block px-4 py-2 hover:bg-gray-200" href="#">
-        Training Modules
-       </a>
-       <a class="block px-4 py-2 hover:bg-gray-200" href="#">
-        Activities
-       </a>
-       <a class="block px-4 py-2 hover:bg-gray-200" href="#">
-        Resources
-       </a>
+
+      <!-- Mobile Menu -->
+      <div class="hidden bg-blue-900 text-white" id="mobile-menu">
+         <nav class="flex flex-col space-y-4 py-4 px-6">
+            <a href="#" class="hover:text-gray-300">Home</a>
+            <a href="#" class="hover:text-gray-300">Mission &amp; Vision</a>
+            <a href="#" class="hover:text-gray-300">History</a>
+            <a href="#" class="hover:text-gray-300">Leadership</a>
+            <a href="#" class="hover:text-gray-300">Training Modules</a>
+            <a href="#" class="hover:text-gray-300">Activities</a>
+            <a href="#" class="hover:text-gray-300">Resources</a>
+            <a href="#" class="hover:text-gray-300">Discovery Rangers</a>
+            <a href="#" class="hover:text-gray-300">Adventure Rangers</a>
+            <a href="#" class="hover:text-gray-300">Expedition Rangers</a>
+            <a href="#" class="hover:text-gray-300">Leaders Unit</a>
+            <a href="#" class="hover:text-gray-300">Upcoming Events</a>
+            <a href="#" class="hover:text-gray-300">Past Events</a>
+            <a href="#" class="hover:text-gray-300">Contact Us</a>
+            <a href="#" class="hover:text-gray-300">Login</a>
+            <a href="#" class="hover:text-gray-300">Register</a>
+         </nav>
       </div>
-     </div>
-     <div class="relative group">
-      <a class="hover:text-gray-300" href="#">
-       Units
-      </a>
-      <div class="absolute hidden group-hover:block bg-white text-black mt-2 rounded shadow-lg">
-       <a class="block px-4 py-2 hover:bg-gray-200" href="#">
-        Discovery Rangers
-       </a>
-       <a class="block px-4 py-2 hover:bg-gray-200" href="#">
-        Adventure Rangers
-       </a>
-       <a class="block px-4 py-2 hover:bg-gray-200" href="#">
-        Expedition Rangers
-       </a>
-       <a class="block px-4 py-2 hover:bg-gray-200" href="#">
-        Leaders Unit
-       </a>
-      </div>
-     </div>
-     <div class="relative group">
-      <a class="hover:text-gray-300" href="#">
-       Events
-      </a>
-      <div class="absolute hidden group-hover:block bg-white text-black mt-2 rounded shadow-lg">
-       <a class="block px-4 py-2 hover:bg-gray-200" href="#">
-        Upcoming Events
-       </a>
-       <a class="block px-4 py-2 hover:bg-gray-200" href="#">
-        Past Events
-       </a>
-      </div>
-     </div>
-     <a class="hover:text-gray-300" href="#">
-      Contact Us
-     </a>
-     <a class="hover:text-gray-300" href="#">
-      Login
-     </a>
-     <a class="hover:text-gray-300" href="#">
-      Register
-     </a>
-    </nav>
-    <div class="md:hidden">
-     <button class="text-white focus:outline-none" id="menu-btn">
-      <i class="fas fa-bars">
-      </i>
-     </button>
-    </div>
-   </div>
-  </header>
-  <!-- Mobile Menu -->
-  <div class="hidden bg-blue-900 text-white" id="mobile-menu">
-   <nav class="flex flex-col space-y-4 py-4 px-6">
-    <a class="hover:text-gray-300" href="#">
-     Home
-    </a>
-    <a class="hover:text-gray-300" href="#">
-     Mission &amp; Vision
-    </a>
-    <a class="hover:text-gray-300" href="#">
-     History
-    </a>
-    <a class="hover:text-gray-300" href="#">
-     Leadership
-    </a>
-    <a class="hover:text-gray-300" href="#">
-     Training Modules
-    </a>
-    <a class="hover:text-gray-300" href="#">
-     Activities
-    </a>
-    <a class="hover:text-gray-300" href="#">
-     Resources
-    </a>
-    <a class="hover:text-gray-300" href="#">
-     Discovery Rangers
-    </a>
-    <a class="hover:text-gray-300" href="#">
-     Adventure Rangers
-    </a>
-    <a class="hover:text-gray-300" href="#">
-     Expedition Rangers
-    </a>
-    <a class="hover:text-gray-300" href="#">
-     Leaders Unit
-    </a>
-    <a class="hover:text-gray-300" href="#">
-     Upcoming Events
-    </a>
-    <a class="hover:text-gray-300" href="#">
-     Past Events
-    </a>
-    <a class="hover:text-gray-300" href="#">
-     Contact Us
-    </a>
-    <a class="hover:text-gray-300" href="#">
-     Login
-    </a>
-    <a class="hover:text-gray-300" href="#">
-     Register
-    </a>
-   </nav>
-  </div>
-  <!-- Hero Section -->
+   </header>
+
+   <!-- Main Content (Example Section) -->
+ 
   <section class="relative">
    <img alt="Royal Rangers Abakaliki East District activities" class="w-full h-96 object-cover" height="600" src="IMG_20241214_130337_105.jpg">
    <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
@@ -287,16 +229,19 @@
      </div>
     </div>
    </div>
-  </footer>
-  <script>
-   document.getElementById('menu-btn').addEventListener('click', function() {
-            var mobileMenu = document.getElementById('mobile-menu');
-            if (mobileMenu.classList.contains('hidden')) {
-                mobileMenu.classList.remove('hidden');
-            } else {
-                mobileMenu.classList.add('hidden');
-            }
-        });
-  </script>
- </body>
- </html>
+      </footer>
+   <main class="container mx-auto py-10 px-6">
+      <h2 class="text-3xl font-bold text-center text-blue-900">Welcome to Royal Rangers Abakaliki East District</h2>
+      <p class="text-lg mt-4 text-center">Empowering young people to grow in faith, knowledge, and leadership.</p>
+   </main>
+
+   <script>
+      document.getElementById('menu-btn').addEventListener('click', function() {
+         var mobileMenu = document.getElementById('mobile-menu');
+         mobileMenu.classList.toggle('hidden');
+      });
+   </script>
+
+</body>
+
+</html>
