@@ -51,14 +51,50 @@
           <h1 class="ml-4 text-2xl font-bold">Royal Rangers Abakaliki East District</h1>
         </div>
         <nav class="hidden md:flex space-x-6">
-          <a class="hover:text-gray-300" href="index.html">Home</a>
-          <a class="hover:text-gray-300" href="about.html">About Us</a>
-          <a class="hover:text-gray-300" href="programs.html">Programs</a>
-          <a class="hover:text-gray-300" href="units.html">Units</a>
-          <a class="hover:text-gray-300" href="events.html">Events</a>
-          <a class="hover:text-gray-300" href="contact.html">Contact Us</a>
-          <a class="hover:text-gray-300" href="login.html">Login</a>
-        </nav>
+            <a class="hover:text-gray-300" href="index.html">Home</a>
+            <a class="hover:text-gray-300" href="about.html">About Us</a>
+            <a class="hover:text-gray-300" href="programs.html">Programs</a>
+            
+            <!-- Units Dropdown -->
+            <div class="relative">
+              <button class="hover:text-gray-300">Units</button>
+              <div class="absolute hidden bg-gray-800 text-white space-y-2 w-48 py-2 top-full left-0 rounded-md">
+                <a class="block px-4 py-2 hover:bg-gray-700" href="training_instructors.html">Training Instructors Unit</a>
+                <a class="block px-4 py-2 hover:bg-gray-700" href="provost.html">Provost Unit</a>
+                <a class="block px-4 py-2 hover:bg-gray-700" href="band_logistics.html">Band/Logistics Unit</a>
+                <a class="block px-4 py-2 hover:bg-gray-700" href="welfare.html">Welfare Unit</a>
+                <a class="block px-4 py-2 hover:bg-gray-700" href="chaplain.html">Chaplain Unit</a>
+                <a class="block px-4 py-2 hover:bg-gray-700" href="sos.html">Special Operations Squad (SOS) Unit</a>
+                <a class="block px-4 py-2 hover:bg-gray-700" href="media.html">Media Unit</a>
+                <a class="block px-4 py-2 hover:bg-gray-700" href="medic.html">Medic Unit</a>
+              </div>
+            </div>
+          
+            <!-- Administration Dropdown -->
+            <div class="relative">
+              <button class="hover:text-gray-300">Administration</button>
+              <div class="absolute hidden bg-gray-800 text-white space-y-2 w-48 py-2 top-full left-0 rounded-md">
+                <a class="block px-4 py-2 hover:bg-gray-700" href="dco.html">Office of the DCO</a>
+                <a class="block px-4 py-2 hover:bg-gray-700" href="adco_admin.html">ADCO Admin</a>
+                <a class="block px-4 py-2 hover:bg-gray-700" href="adco_operations.html">ADCO Operations</a>
+                <a class="block px-4 py-2 hover:bg-gray-700" href="district_secretary.html">District Secretary</a>
+                <a class="block px-4 py-2 hover:bg-gray-700" href="oc_units.html">Officer Commanding for Units</a>
+                <a class="block px-4 py-2 hover:bg-gray-700" href="media_pro.html">Media/PRO</a>
+              </div>
+            </div>
+          
+            <a class="hover:text-gray-300" href="events.html">Events</a>
+            <a class="hover:text-gray-300" href="contact.html">Contact Us</a>
+            <a class="hover:text-gray-300" href="login.html">Login</a>
+          </nav>
+          
+          <!-- Add the following CSS to show the dropdown on hover -->
+          <style>
+            .relative:hover .absolute {
+              display: block;
+            }
+          </style>
+          
         <div class="md:hidden">
           <button class="text-white focus:outline-none" id="menu-btn">
             <i class="fas fa-bars"></i>
