@@ -1,376 +1,177 @@
 <html lang="en">
- <head>
+<head>
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-  
-<meta name="description" content="Welcome to Royal Rangers Abakaliki East District – empowering young lives through faith, fellowship, and leadership development. Explore our programs, events, and activities.">
-<meta name="keywords" content="Royal Rangers, Abakaliki East District, youth leadership, faith-based programs, Ebonyi State, Nigeria, mentorship, community service">
-<meta name="author" content="Royal Rangers Abakaliki East District">
-<meta name="robots" content="index, follow">
+  <meta name="description" content="Welcome to Royal Rangers Abakaliki East District – empowering young lives through faith, fellowship, and leadership development. Explore our programs, events, and activities.">
+  <meta name="keywords" content="Royal Rangers, Abakaliki East District, youth leadership, faith-based programs, Ebonyi State, Nigeria, mentorship, community service">
+  <meta name="author" content="Royal Rangers Abakaliki East District">
+  <meta name="robots" content="index, follow">
 
-<!-- Open Graph Meta Tags for Social Sharing -->
-<meta property="og:title" content="Royal Rangers Abakaliki East District">
-<meta property="og:description" content="Empowering young lives through faith, fellowship, and leadership development. Discover programs, events, and opportunities in our district.">
-<meta property="og:image" content="IMG_20241214_130337_105.jpg">
-<meta property="og:url" content="https://example.com">
-<meta property="og:type" content="website">
-<meta property="og:locale" content="en_US">
+  <!-- Open Graph Meta Tags for Social Sharing -->
+  <meta property="og:title" content="Royal Rangers Abakaliki East District">
+  <meta property="og:description" content="Empowering young lives through faith, fellowship, and leadership development. Discover programs, events, and opportunities in our district.">
+  <meta property="og:image" content="IMG_20241214_130337_105.jpg">
+  <meta property="og:url" content="https://example.com">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_US">
 
-<!-- Twitter Card Meta Tags -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Royal Rangers Abakaliki East District">
-<meta name="twitter:description" content="Join Royal Rangers Abakaliki East District and be part of an inspiring journey of faith and leadership. Learn more about our activities and programs.">
-<meta name="twitter:image" content="IMG_20241214_130337_105.jpg">
-<meta name="twitter:site" content="@RRAbakalikiEast">
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Royal Rangers Abakaliki East District">
+  <meta name="twitter:description" content="Join Royal Rangers Abakaliki East District and be part of an inspiring journey of faith and leadership. Learn more about our activities and programs.">
+  <meta name="twitter:image" content="IMG_20241214_130337_105.jpg">
+  <meta name="twitter:site" content="@RRAbakalikiEast">
 
-<!-- Favicon -->
-<link rel="icon" href="rrlogo.png" type="image/x-icon">
+  <!-- Favicon -->
+  <link rel="icon" href="rrlogo.png" type="image/x-icon">
 
-<!-- Canonical URL -->
-<link rel="canonical" href="https://royal-rangers-abed-portal.vercel.app/">
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://royal-rangers-abed-portal.vercel.app/">
 
-<!-- SEO Optimizations -->
-<meta name="theme-color" content="#007bff">
-<meta name="apple-mobile-web-app-status-bar-style" content="default">
-<meta name="application-name" content="Royal Rangers Abakaliki East District">
+  <!-- SEO Optimizations -->
+  <meta name="theme-color" content="#007bff">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="application-name" content="Royal Rangers Abakaliki East District">
+
   <title>
-   Royal Rangers Abakaliki East District Portal
+    Royal Rangers Abakaliki East District Portal
   </title>
-  <script src="https://cdn.tailwindcss.com">
-  </script>
-  <!-- Add this in the <head> section -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
 
-<!-- Add this before the closing </body> tag -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
- </head>
- <body class="font-roboto">
+</head>
+
+<body class="font-roboto">
   <!-- Header -->
   <header class="bg-blue-900 text-white">
-   <div class="container mx-auto flex justify-between items-center py-4 px-6">
-    <div class="flex items-center">
-     <img alt="Royal Rangers Abakaliki East District logo" class="h-12 w-16" height="50" src="rrlogo.png" width="70"/>
-     <h1 class="ml-4 text-2xl font-bold">
-      Royal Rangers Abakaliki East District
-     </h1>
+    <div class="container mx-auto flex justify-between items-center py-4 px-6">
+      <div class="flex items-center">
+        <img alt="Royal Rangers Abakaliki East District logo" class="h-12 w-16" height="50" src="rrlogo.png" width="70"/>
+        <h1 class="ml-4 text-2xl font-bold">
+          Royal Rangers Abakaliki East District
+        </h1>
+      </div>
+      <nav class="hidden md:flex space-x-6">
+        <a class="hover:text-gray-300" href="#">Home</a>
+        <div class="relative group">
+          <a class="hover:text-gray-300" href="#">About Us</a>
+          <div class="absolute hidden group-hover:block bg-white text-black mt-2 rounded shadow-lg">
+            <a class="block px-4 py-2 hover:bg-gray-200" href="#">Mission & Vision</a>
+            <a class="block px-4 py-2 hover:bg-gray-200" href="#">History</a>
+            <a class="block px-4 py-2 hover:bg-gray-200" href="#">Leadership</a>
+          </div>
+        </div>
+        <div class="relative group">
+          <a class="hover:text-gray-300" href="#">Programs</a>
+          <div class="absolute hidden group-hover:block bg-white text-black mt-2 rounded shadow-lg">
+            <a class="block px-4 py-2 hover:bg-gray-200" href="#">Training Modules</a>
+            <a class="block px-4 py-2 hover:bg-gray-200" href="#">Activities</a>
+            <a class="block px-4 py-2 hover:bg-gray-200" href="#">Resources</a>
+          </div>
+        </div>
+        <div class="relative group">
+          <a class="hover:text-gray-300" href="#">Units</a>
+          <div class="absolute hidden group-hover:block bg-white text-black mt-2 rounded shadow-lg">
+            <a class="block px-4 py-2 hover:bg-gray-200" href="#">Discovery Rangers</a>
+            <a class="block px-4 py-2 hover:bg-gray-200" href="#">Adventure Rangers</a>
+            <a class="block px-4 py-2 hover:bg-gray-200" href="#">Expedition Rangers</a>
+            <a class="block px-4 py-2 hover:bg-gray-200" href="#">Leaders Unit</a>
+          </div>
+        </div>
+        <div class="relative group">
+          <a class="hover:text-gray-300" href="#">Events</a>
+          <div class="absolute hidden group-hover:block bg-white text-black mt-2 rounded shadow-lg">
+            <a class="block px-4 py-2 hover:bg-gray-200" href="#">Upcoming Events</a>
+            <a class="block px-4 py-2 hover:bg-gray-200" href="#">Past Events</a>
+          </div>
+        </div>
+        <a class="hover:text-gray-300" href="#">Contact Us</a>
+        <a class="hover:text-gray-300" href="#">Login</a>
+        <a class="hover:text-gray-300" href="#">Register</a>
+      </nav>
+      <div class="md:hidden">
+        <button class="text-white focus:outline-none" id="menu-btn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
     </div>
-    <nav class="hidden md:flex space-x-6">
-     <a class="hover:text-gray-300" href="#">
-      Home
-     </a>
-     <div class="relative group">
-      <a class="hover:text-gray-300" href="#">
-       About Us
-      </a>
-      <div class="absolute hidden group-hover:block bg-white text-black mt-2 rounded shadow-lg">
-       <a class="block px-4 py-2 hover:bg-gray-200" href="#">
-        Mission &amp; Vision
-       </a>
-       <a class="block px-4 py-2 hover:bg-gray-200" href="#">
-        History
-       </a>
-       <a class="block px-4 py-2 hover:bg-gray-200" href="#">
-        Leadership
-       </a>
-      </div>
-     </div>
-     <div class="relative group">
-      <a class="hover:text-gray-300" href="#">
-       Programs
-      </a>
-      <div class="absolute hidden group-hover:block bg-white text-black mt-2 rounded shadow-lg">
-       <a class="block px-4 py-2 hover:bg-gray-200" href="#">
-        Training Modules
-       </a>
-       <a class="block px-4 py-2 hover:bg-gray-200" href="#">
-        Activities
-       </a>
-       <a class="block px-4 py-2 hover:bg-gray-200" href="#">
-        Resources
-       </a>
-      </div>
-     </div>
-     <div class="relative group">
-      <a class="hover:text-gray-300" href="#">
-       Units
-      </a>
-      <div class="absolute hidden group-hover:block bg-white text-black mt-2 rounded shadow-lg">
-       <a class="block px-4 py-2 hover:bg-gray-200" href="#">
-        Discovery Rangers
-       </a>
-       <a class="block px-4 py-2 hover:bg-gray-200" href="#">
-        Adventure Rangers
-       </a>
-       <a class="block px-4 py-2 hover:bg-gray-200" href="#">
-        Expedition Rangers
-       </a>
-       <a class="block px-4 py-2 hover:bg-gray-200" href="#">
-        Leaders Unit
-       </a>
-      </div>
-     </div>
-     <div class="relative group">
-      <a class="hover:text-gray-300" href="#">
-       Events
-      </a>
-      <div class="absolute hidden group-hover:block bg-white text-black mt-2 rounded shadow-lg">
-       <a class="block px-4 py-2 hover:bg-gray-200" href="#">
-        Upcoming Events
-       </a>
-       <a class="block px-4 py-2 hover:bg-gray-200" href="#">
-        Past Events
-       </a>
-      </div>
-     </div>
-     <a class="hover:text-gray-300" href="#">
-      Contact Us
-     </a>
-     <a class="hover:text-gray-300" href="#">
-      Login
-     </a>
-     <a class="hover:text-gray-300" href="#">
-      Register
-     </a>
-    </nav>
-    <div class="md:hidden">
-     <button class="text-white focus:outline-none" id="menu-btn">
-      <i class="fas fa-bars">
-      </i>
-     </button>
-    </div>
-   </div>
   </header>
+
   <!-- Mobile Menu -->
   <div class="hidden bg-blue-900 text-white" id="mobile-menu">
-   <nav class="flex flex-col space-y-4 py-4 px-6">
-    <a class="hover:text-gray-300" href="#">
-     Home
-    </a>
-    <a class="hover:text-gray-300" href="#">
-     Mission &amp; Vision
-    </a>
-    <a class="hover:text-gray-300" href="#">
-     History
-    </a>
-    <a class="hover:text-gray-300" href="#">
-     Leadership
-    </a>
-    <a class="hover:text-gray-300" href="#">
-     Training Modules
-    </a>
-    <a class="hover:text-gray-300" href="#">
-     Activities
-    </a>
-    <a class="hover:text-gray-300" href="#">
-     Resources
-    </a>
-    <a class="hover:text-gray-300" href="#">
-     Discovery Rangers
-    </a>
-    <a class="hover:text-gray-300" href="#">
-     Adventure Rangers
-    </a>
-    <a class="hover:text-gray-300" href="#">
-     Expedition Rangers
-    </a>
-    <a class="hover:text-gray-300" href="#">
-     Leaders Unit
-    </a>
-    <a class="hover:text-gray-300" href="#">
-     Upcoming Events
-    </a>
-    <a class="hover:text-gray-300" href="#">
-     Past Events
-    </a>
-    <a class="hover:text-gray-300" href="#">
-     Contact Us
-    </a>
-    <a class="hover:text-gray-300" href="#">
-     Login
-    </a>
-    <a class="hover:text-gray-300" href="#">
-     Register
-    </a>
-   </nav>
+    <nav class="flex flex-col space-y-4 py-4 px-6">
+      <a class="hover:text-gray-300" href="#">Home</a>
+      <a class="hover:text-gray-300" href="#">Mission & Vision</a>
+      <a class="hover:text-gray-300" href="#">History</a>
+      <a class="hover:text-gray-300" href="#">Leadership</a>
+      <a class="hover:text-gray-300" href="#">Training Modules</a>
+      <a class="hover:text-gray-300" href="#">Activities</a>
+      <a class="hover:text-gray-300" href="#">Resources</a>
+      <a class="hover:text-gray-300" href="#">Discovery Rangers</a>
+      <a class="hover:text-gray-300" href="#">Adventure Rangers</a>
+      <a class="hover:text-gray-300" href="#">Expedition Rangers</a>
+      <a class="hover:text-gray-300" href="#">Leaders Unit</a>
+      <a class="hover:text-gray-300" href="#">Upcoming Events</a>
+      <a class="hover:text-gray-300" href="#">Past Events</a>
+      <a class="hover:text-gray-300" href="#">Contact Us</a>
+      <a class="hover:text-gray-300" href="#">Login</a>
+      <a class="hover:text-gray-300" href="#">Register</a>
+    </nav>
   </div>
+
   <!-- Hero Section -->
   <section class="relative">
-   <img alt="Royal Rangers Abakaliki East District activities" class="w-full h-96 object-cover" height="600" src="IMG_20241214_130337_105.jpg">
-   <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
-    <h2 class="text-white text-4xl font-bold">
-     Welcome to Royal Rangers Abakaliki East District
-    </h2>
-   </div>
+    <img alt="Royal Rangers Abakaliki East District activities" class="w-full h-96 object-cover" height="600" src="IMG_20241214_130337_105.jpg">
+    <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+      <h2 class="text-white text-4xl font-bold">
+        Welcome to Royal Rangers Abakaliki East District
+      </h2>
+    </div>
   </section>
-  
+
   <!-- Homepage Content -->
   <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
-  <!-- Indicators -->
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
 
-  <!-- Carousel Items -->
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="IMG_20241214_130337_105.jpg" class="d-block w-100" alt="First Slide">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Welcome to Royal Rangers Abakaliki East</h5>
-        <p>Guiding the next generation with faith, fun, and fellowship.</p>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="IMG_20241214_130337_105.jpg" class="d-block w-100" alt="First Slide">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Welcome to Royal Rangers Abakaliki East</h5>
+          <p>Guiding the next generation with faith, fun, and fellowship.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="IMG_20241214_130337_105.jpg" class="d-block w-100" alt="Second Slide">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Congratulations, Rev. Col. Ogbonna Michael</h5>
+          <p>On your appointment as the State Provost Commander.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="IMG_20241214_130337_105.jpg" class="d-block w-100" alt="Third Slide">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Train a Child in the Way</h5>
+          <p>Mentoring boys and young leaders for the future.</p>
+        </div>
       </div>
     </div>
-    <div class="carousel-item">
-      <img src="IMG_20241214_130337_105.jpg" class="d-block w-100" alt="Second Slide">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Congratulations, Rev. Col. Ogbonna Michael</h5>
-        <p>On your appointment as the State Provost Commander.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="IMG_20241214_130337_105.jpg" class="d-block w-100" alt="Third Slide">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Join Our Programs</h5>
-        <p>Explore exciting activities and events in the district.</p>
-      </div>
-    </div>
-  </div>
 
-  <!-- Navigation -->
-  <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-   <h2 class="text-3xl font-bold mb-8">
-    Our Mission &amp; Vision
-   </h2>
-   <p class="text-gray-700 mb-8">
-    Our mission is to evangelize, equip, and empower the next generation of Christlike men and lifelong servant leaders. Our vision is to see every boy and young man grow into a mature and responsible adult, equipped with the skills and values needed to succeed in life.
-   </p>
-   <h2 class="text-3xl font-bold mb-8">
-    Programs Overview
-   </h2>
-   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-    <div class="bg-white shadow-lg rounded-lg overflow-hidden">
-     <img alt="Training Modules" class="w-full h-48 object-cover" height="300" src="https://storage.googleapis.com/a1aa/image/FURQbv5Dw9bzPBxn7vfltq0xmHEpdZXU6jpJ0GM9cp3oZf3TA.jpg" width="400"/>
-     <div class="p-6">
-      <h3 class="text-xl font-bold mb-2">
-       Training Modules
-      </h3>
-      <p class="text-gray-700">
-       Explore our comprehensive training modules designed for different age groups, focusing on both spiritual and practical development.
-      </p>
-     </div>
-    </div>
-    <div class="bg-white shadow-lg rounded-lg overflow-hidden">
-     <img alt="Activities" class="w-full h-48 object-cover" height="300" src="https://storage.googleapis.com/a1aa/image/frQNb2jpEfpbPUWJBq3PU3KhYV4UC3C1WzocTtKJhHsTzevnA.jpg" width="400"/>
-     <div class="p-6">
-      <h3 class="text-xl font-bold mb-2">
-       Activities
-      </h3>
-      <p class="text-gray-700">
-       Engage in a variety of activities including camping trips, adventure programs, and community service projects.
-      </p>
-     </div>
-    </div>
-    <div class="bg-white shadow-lg rounded-lg overflow-hidden">
-     <img alt="Resources" class="w-full h-48 object-cover" height="300" src="https://storage.googleapis.com/a1aa/image/TP4fcas4kq2VGSNAwGAILSEO5CZiO5R03V9eVpvFoZYPzevnA.jpg" width="400"/>
-     <div class="p-6">
-      <h3 class="text-xl font-bold mb-2">
-       Resources
-      </h3>
-      <p class="text-gray-700">
-       Access a wealth of educational and spiritual resources to support your growth and development as a Royal Ranger.
-      </p>
-     </div>
-    </div>
-   </div>
-  </section>
-     <blockquote class="twitter-tweet" data-media-max-width="560"><p lang="en" dir="ltr">Congratulations to Our DCO, Rev. Col. Ogbonna Michael, on his appointment as the State Provost Commander, Ebonyi State Command.<br><br>Your leadership inspires us all. Wishing you wisdom and success in this new role! <a href="https://twitter.com/hashtag/RoyalRangersNigeria?src=hash&amp;ref_src=twsrc%5Etfw">#RoyalRangersNigeria</a> <a href="https://twitter.com/RoyalRangersUSA?ref_src=twsrc%5Etfw">@RoyalRangersUSA</a> <a href="https://twitter.com/hashtag/RoyalRangersAbakalikiEast?src=hash&amp;ref_src=twsrc%5Etfw">#RoyalRangersAbakalikiEast</a> <a href="https://t.co/ih98CTTbrk">pic.twitter.com/ih98CTTbrk</a></p>&mdash; Royal Rangers Abakaliki East District (@RRAbakalikiEast) <a href="https://twitter.com/RRAbakalikiEast/status/1870734275399811470?ref_src=twsrc%5Etfw">December 22, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-  <!-- Testimonials Section -->
-  <section class="bg-gray-100 py-12">
-   <div class="container mx-auto px-6">
-    <h2 class="text-3xl font-bold mb-8">
-     Testimonials
-    </h2>
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-     <div class="bg-white shadow-lg rounded-lg p-6">
-      <p class="text-gray-700 mb-4">
-       "Royal Rangers has been a transformative experience for my son. He has grown in confidence and leadership skills."
-      </p>
-      <p class="text-gray-900 font-bold">
-       - Parent of a Discovery Ranger
-      </p>
-     </div>
-     <div class="bg-white shadow-lg rounded-lg p-6">
-      <p class="text-gray-700 mb-4">
-       "The activities and training modules have helped me develop new skills and make lifelong friends."
-      </p>
-      <p class="text-gray-900 font-bold">
-       - Adventure Ranger
-      </p>
-     </div>
-     <div class="bg-white shadow-lg rounded-lg p-6">
-      <p class="text-gray-700 mb-4">
-       "Being a leader in Royal Rangers has been a rewarding experience. I enjoy mentoring the younger members."
-      </p>
-      <p class="text-gray-900 font-bold">
-       - Expedition Ranger Leader
-      </p>
-     </div>
-    </div>
-   </div>
-  </section>
-  <!-- Footer -->
-  <footer class="bg-blue-900 text-white py-8">
-   <div class="container mx-auto px-6">
-    <div class="flex flex-col md:flex-row justify-between items-center">
-     <div class="mb-4 md:mb-0">
-      <h3 class="text-xl font-bold">
-       Royal Rangers Abakaliki East District
-      </h3>
-      <p class="text-gray-300">
-       P.M.B. 1526, Abakaliki, Ebonyi State, Nigeria
-      </p>
-     </div>
-     <div class="flex space-x-4">
-      <a class="hover:text-gray-300" href="#">
-       <i class="fab fa-facebook-f">
-       </i>
-      </a>
-      <a class="hover:text-gray-300" href="#">
-       <i class="fab fa-twitter">
-       </i>
-      </a>
-      <a class="hover:text-gray-300" href="#">
-       <i class="fab fa-linkedin-in">
-       </i>
-      </a>
-      <a class="hover:text-gray-300" href="#">
-       <i class="fab fa-instagram">
-       </i>
-      </a>
-     </div>
-    </div>
-   </div>
-  </footer>
-  <script>
-   document.getElementById('menu-btn').addEventListener('click', function() {
-            var mobileMenu = document.getElementById('mobile-menu');
-            if (mobileMenu.classList.contains('hidden')) {
-                mobileMenu.classList.remove('hidden');
-            } else {
-                mobileMenu.classList.add('hidden');
-            }
-        });
-  </script>
- </body>
-       </html>
+    <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</body>
+</html>
